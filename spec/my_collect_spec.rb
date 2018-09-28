@@ -17,7 +17,7 @@ describe "my_collect" do
     end
   end
 
-  
+ 
 
   it 'does not modify the original collection' do
     my_collect(languages) do |language|
