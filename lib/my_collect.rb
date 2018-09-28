@@ -1,6 +1,6 @@
-def my_collect(empty_array)
+def my_collect(languages, students)
   x = 0 
-  while x < empty_array
+  while x < languages.length
   yield my_collect(x)
   end
 end
