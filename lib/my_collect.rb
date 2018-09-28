@@ -1,6 +1,6 @@
-def my_collect(languages, empty_array)
+def my_collect(languages, students)
   x = 0 
-  my_collect(empty_array, languages) do |x|
+  my_collect(languages) do |x|
     while x < languages.length
       yield(languages[x])
     end
