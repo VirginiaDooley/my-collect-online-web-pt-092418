@@ -1,2 +1,3 @@
-def my_collect(empty_array, students, languages)
+def my_collect(empty_array)
+  
 end
