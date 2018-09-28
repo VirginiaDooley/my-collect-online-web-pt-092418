@@ -1,3 +1,2 @@
-def my_collect(array1, array2)
-  empty_array = []
+def my_collect(empty_array)
 end
